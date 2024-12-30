@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  dubbo:
+    appname:
+      dubbo-provider
+    registry:
+      zookeeper://localhost:2181

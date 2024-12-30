@@ -1,0 +1,6 @@
+spring:
+  dubbo:
+    appname:
+      dubbo-consumer
+    registry:
+      zookeeper://localhost:2181
