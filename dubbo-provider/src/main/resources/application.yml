@@ -3,7 +3,5 @@ server:
 
 spring:
   dubbo:
-    appname:
-      dubbo-provider
-    registry:
-      zookeeper://localhost:2181
+    appname: dubbo-provider
+    registry: zookeeper://localhost:2181
